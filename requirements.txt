@@ -1,5 +1,4 @@
-Flask
-gunicorn
 numpy
 opencv-contrib-python-headless
 streamlit
+streamlit-drawable-canvas
