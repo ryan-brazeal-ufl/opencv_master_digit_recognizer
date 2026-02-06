@@ -63,4 +63,4 @@ def upload():
   return json.dumps({'success':True, 'class': int(classId), 'confidence': float(confidence)}), 200, {'ContentType':'application/json'} 
 
 if __name__ == '__main__':
-   app.run(host='0.0.0.0',port=80)
+   app.run()
