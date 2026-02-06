@@ -3,7 +3,7 @@ import threading
 from cv_web_app import app as flask_app
 
 def run_flask():
-    flask_app.run(port=5000, use_reloader=False)
+    flask_app.run(host="0.0.0.0", port=5000, use_reloader=False)
 
 threading.Thread(target=run_flask, daemon=True).start()
 
