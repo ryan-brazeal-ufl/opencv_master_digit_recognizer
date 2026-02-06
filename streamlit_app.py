@@ -8,6 +8,6 @@ def run_flask():
 threading.Thread(target=run_flask, daemon=True).start()
 
 st.components.v1.iframe(
-    "http://localhost:5000",
+    "https://localhost:5000",
     height=800
 )
